@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/* Tokens da identidade visual do Modo Estudante, herdados da Sprint 03.
+   No Tailwind v4 as variaveis em @theme viram utilitarias (bg-roxo, text-azul, ...). */
+@theme {
+    --color-roxo: #3a1078;
+    --color-roxo-escuro: #26064f;
+    --color-azul: #10143f;
+    --color-azul-escuro: #080a24;
+    --color-cinza-texto: #4a4a5a;
+    --color-lilas-claro: #f4f3f9;
+
+    --font-titulo: 'Oswald', sans-serif;
+    --font-texto: 'Open Sans', sans-serif;
+}
+
+:root {
+    --header-altura: 100px;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: calc(var(--header-altura) + 10px);
+}
+
+body {
+    font-family: var(--font-texto);
+    margin: 0;
+    color: var(--color-cinza-texto);
+    overflow-x: hidden;
+}
