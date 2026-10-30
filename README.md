@@ -15,11 +15,8 @@ precisa para organizar a rotina acadêmica: tarefas, prazos, matérias e materia
 
 | Item | Link |
 | --- | --- |
-| Repositório Git | _preencher com a URL do repositório_ |
-| Deploy na Vercel | _preencher com a URL gerada pela Vercel_ |
-
-> Os dois links ainda precisam ser preenchidos: o deploy depende da conta Vercel da equipe.
-> O passo a passo está na seção [Deploy na Vercel](#deploy-na-vercel).
+| Repositório Git | https://github.com/LeoHidifira/Sprint-3-Front-end |
+| Deploy na Vercel | https://project-eta-one-57.vercel.app/ |
 
 ---
 
